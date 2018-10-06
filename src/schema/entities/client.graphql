@@ -1,0 +1,10 @@
+type Client{
+  id: ID!
+  name: String!
+  age: Int
+}
+
+input newClient{
+  name: String!
+  age: Int!
+}
